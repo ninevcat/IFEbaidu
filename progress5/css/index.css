@@ -9,12 +9,12 @@ body{
 	height: 70px;	
 	display: flex;
 }
-.current{
-	color: #bbb;
-}
 .webtitle{
 	margin: 40px 0 auto 40px;
 	width: 65%;
+}
+.current{
+	color: #bbb;
 }
 ul.link{
 	list-style: none;
@@ -26,6 +26,9 @@ ul a{
 	margin-left: 10px;
 	margin-top: 10px;
 	float: left;
+}
+.content{
+	display: flex;
 }
 .block{
 	margin: 10px 20px;
@@ -46,11 +49,13 @@ ul a{
 	font: bold 15px "黑体";
 	color: #888888
 }
-.content{
-	width: auto;
+.text{
+	width: 70%;
 	margin-top: 10px;
 	font: 15px bold "黑体";
 	line-height: 1.5em;
+	display: flex;
+	flex-direction: column;
 }
 .para{
 	text-indent: 2em;
@@ -88,17 +93,22 @@ tfoot{
 	background-color: #ccc;
 }
 .side{
-	width: 85%;
+	display: inline-flex;
+	flex: 1;
+	width: 30%;
+	height: 30%;
+	margin-top: 10px;
 	/*text-align: center;*/
 	line-height: 30px;	
+	font-size: 12px;
 }
 .sidetitle{
 	display: flex;
-	font: 35px "黑体";
+	font: 20px "黑体";
 }
 .right{
 	display:inline-block;
-	width:45%;
+	width:100px;
 	text-align:right;
 }
 .icon{
@@ -109,13 +119,13 @@ tfoot{
 	background-color: #ccc;
 }
 .tis{
-	text-indent: 45%;
-	font: 15px "黑体";
+	text-indent: 40%;
+	font: 10px "黑体";
 	color: #888888;
-	margin-bottom: 10px;
+	margin: 10px 0 15px;
 }
 .sign label{
-	margin-top: 5px;
+	/*margin-top: 1px;*/
 	vertical-align: top;
 }
 .button{

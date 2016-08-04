@@ -1,0 +1,27 @@
+.block{
+	width: 400px;
+	height: 200px;
+	background-color: #CCCCCC;
+	position: fixed;
+	top: 30%;
+	left: 30%;
+}
+.head{
+	overflow: hidden;
+	display: inline-block;
+	position: relative;
+	padding: 25px;
+	border-radius: 0 0 50px 0;
+	background-color: #fc0;
+}
+.foot{
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+/*	text-align: right;*/
+	padding: 25px;
+	border-radius: 50px 0 0 0;
+	background-color: #fc0;
+	bottom: -150px;
+	right: -292px;
+}
